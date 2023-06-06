@@ -23,9 +23,7 @@ public class WaterRiseMechanic : MonoBehaviour
     {
 public class Location
 {
-    public long ID {get;set;}
-    public long ParentID {get;set;}
-    public List<Location> Children {get;set;}
+    
 }
     }
 }
