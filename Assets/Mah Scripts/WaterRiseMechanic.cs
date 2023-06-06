@@ -21,6 +21,11 @@ public class WaterRiseMechanic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+public class Location
+{
+    public long ID {get;set;}
+    public long ParentID {get;set;}
+    public List<Location> Children {get;set;}
+}
     }
 }
