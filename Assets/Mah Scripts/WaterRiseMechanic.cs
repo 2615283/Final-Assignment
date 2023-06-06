@@ -8,7 +8,14 @@ public class WaterRiseMechanic : MonoBehaviour
     void Start()
     {
 
-    public List<GameObject> floodcards = new List<GameObject>();
+    public List<GameObject> TreasureCards = new List<GameObject>();
+
+    public void AddTreasureCardstoList()
+    {
+        TreasureCards.Add(GameObject.Find("floodcard"));
+        TreasureCards.Add(GameObject.Find("floodcard"));
+        TreasureCards.Add(GameObject.Find("floodcard"));
+    }
 }
 
     // Update is called once per frame
